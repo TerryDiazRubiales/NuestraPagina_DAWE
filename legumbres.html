@@ -40,6 +40,107 @@
             <div role="listitem" class="menu_item" tabindex="0"><a href="https://www.ecologiaverde.com/plantas-pteridofitas-que-son-tipos-y-ejemplos-1953.html" target="_blank" >PÁGINA 5</a></div>
         </div>
     </header>
+    <main>
+        <section id="section1">
+          <h2>Tipos de legumbres</h2>
   
-</body>
+          <article role="article">
+            <picture tabindex="0" alt="Alubias pintas" role="img">
+              <source media="(min-width: 992px)" srcset="img/alubiaspintas.jfif" />
+              <!-- Más de 992 px -->
+              <source media="(max-width: 992px)" srcset="img/alubiaspintas.jfif" />
+              <!-- Hasta 992 px -->
+              <img
+                src="img/alubiaspintas.jfif"
+                alt="Alubias pintas"
+              /><!-- En caso de no soportar picture -->
+            </picture>
+            <h3>Alubias pintas</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+              ipsam unde architecto optio minus alias, qui, consequatur
+              consequuntur velit odit fugiat, rerum assumenda earum harum
+              temporibus suscipit veniam ratione debitis?
+              Officia laboriosam culpa expedita amet praesentium et impedit beatae
+              minima, hic ea ratione, accusamus veniam doloremque neque magni
+              pariatur dolores commodi natus.
+            </p>
+            <button tabindex="0" type="button">Leer más...</button>
+          </article>
+  
+          <article role="article">
+            <picture alt="Lentejas" tabindex="0" role="img">
+              <source alt="Lentejas" media="(min-width: 576px)" srcset="img/lentejas.jfif" />
+              <!-- Más de 576 px -->
+              <source alt="Lentejas" media="(max-width: 576px)" srcset="img/lentejas.jfif" />
+              <!-- Hasta 576 px -->
+              <img
+                src="img/lentejas.jfif"
+                alt="Lentejas"
+              /><!-- En caso de no soportar picture -->
+            </picture>
+            <h3>Lentejas</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+              ipsam unde architecto optio minus alias, qui, consequatur
+              consequuntur velit odit fugiat, rerum assumenda earum harum
+              temporibus suscipit veniam ratione debitis?
+              Officia laboriosam culpa expedita amet praesentium et impedit beatae
+              minima, hic ea ratione, accusamus veniam doloremque neque magni
+              pariatur dolores commodi natus.
+            </p>
+            <button tabindex="0" type="button">Leer más...</button>
+          </article>
+  
+          <article role="article">
+            <video width="600" height="400" controls>
+              <source src="video/coverr-irrigation-equipment-on-the-farming-field-622-1080p.mp4" type="video/mp4">
+              <track src="video/subtitulos1.vtt" kind="subtitles" srclang="es" label="Español">
+              Tu navegador no soporta esta etiqueta (video)
+            </video>
+            <h3>Campos de cultivo</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+              ipsam unde architecto optio minus alias, qui, consequatur
+              consequuntur velit odit fugiat, rerum assumenda earum harum
+              temporibus suscipit veniam ratione debitis?
+  
+              Officia laboriosam culpa expedita amet praesentium et impedit beatae
+              minima, hic ea ratione, accusamus veniam doloremque neque magni
+              pariatur dolores commodi natus.
+            </p>
+            <button tabindex="0" type="button" role="link"><a href="https://universidadagricola.com/como-hacer-cruzamientos-en-ajonjoli-video/"> Leer más...</a></button>
+          </article>
+        </section>
+      </main>
+      <aside class="column oculto">
+        <h2>Newsletter</h2>
+        <form action="" role="form" class="column">
+          <label for="nombre">Nombre: </label>
+          <input type="text" name="nombre" required role="textbox" id="name" >
+          <label for="apellido">Apellido: </label>
+          <input type="text" name="apellido" required role="textbox" id="apellido">
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required role="textbox" >
+          <label for="terminos">Acepto los términos</label>
+          <input type="checkbox" name="terminos" id="terminos" required role="checkbox" >
+          <input type="submit" value="Enviar" role="button">
+        </form>
+      </aside>
+      <footer><p>Ejercicio 1 Tema 4 accesibilidad </p> <p>Isabel Pastor López</p> </footer>
+      <script>
+        $(function () {
+            //Captura del evento para mostrar u ocultar
+            $(".icon").click(function () {
+                $(".menu_item").toggle();
+            });
+            $(window).resize(function () {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".menu_item").show();
+                }
+            });
+        });
+    </script>
+    </body>
 </html>
