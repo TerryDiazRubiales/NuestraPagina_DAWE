@@ -15,6 +15,7 @@ header{
 main{
     grid-area: main;
     margin-top: 115px;
+    background-color: #EBEAEA;
 }
 aside{
     grid-area: aside;
