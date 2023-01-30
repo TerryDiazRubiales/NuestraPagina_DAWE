@@ -10,10 +10,12 @@
 header{
     grid-area: header;
     width: 100%;
+    z-index: 100;
 }
 main{
     grid-area: main;
     margin-top: 115px;
+    background-color: #EBEAEA;
 }
 aside{
     grid-area: aside;
