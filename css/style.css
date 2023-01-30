@@ -7,7 +7,6 @@
     grid-template:
     "cabeza" auto
     "main" auto
-    "video" auto
     "pie" auto /
     100%;
     padding: 0px 20px 5px 20px;
@@ -205,7 +204,6 @@ section:nth-of-type(1) input {
     grid-template:
     "cabeza" auto
     "main" auto
-    "video" auto
     "pie" auto /
     100%;
     padding: 0px 20px 5px 20px;
@@ -406,7 +404,6 @@ section:nth-of-type(1) input {
     grid-template:
     "cabeza" auto
     "main" auto
-    "video" auto
     "pie" auto /
     100%;
     padding: 0px 20px 5px 20px;
@@ -606,7 +603,6 @@ section:nth-of-type(1) input {
             grid-template:
             "cabeza" auto
             "main" auto
-            "video" auto
             "pie" auto /
             100%;
             padding: 0px 20px 5px 20px;
